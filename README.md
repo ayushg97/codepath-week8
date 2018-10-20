@@ -16,7 +16,14 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection (SQLi)
+
+We use the provided sql in the hints and set it as the id. For blue, it returns a result as it is not sanitized. However, for red and green the sanitation leads to a redirect as shown in the gif. Instead of an id number, you put 
+' OR SLEEP(5)=0--' . Which results in this url. When accessed, it will return Daron Burke of id=1.
+
+https://35.184.88.145/blue/public/salesperson.php?id=%27%20OR%20SLEEP(5)=0--%27
+
+![](https://github.com/ayushg97/codepath-week8/blob/master/sqli.gif)
 
 Vulnerability #2: __________________
 
