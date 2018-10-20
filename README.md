@@ -39,8 +39,13 @@ The mistake the developer made is creating custom styling based on the type of l
 
 ![](https://github.com/ayushg97/codepath-week8/blob/master/usernameenumeration.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting (XSS)
 
+The feedback form on the public page does not sanitize input properly. When an alert script is put into it, the admin gets an alert as shown in the gif. This is the input I used for the alert shown in the gif.
+
+&lt;script>alert('ayushg97 found the XSS!');&lt;/script>
+
+![](https://github.com/ayushg97/codepath-week8/blob/master/xss.gif)
 
 ## Red
 
@@ -56,4 +61,6 @@ Vulnerability #2: __________________
 ## Notes
 
 Describe any challenges encountered while doing the work
+
+It was hard to tell whether or not something was actually a vulnerability, as you had to check 6 places. The public and private website for red, blue, and green.
 
