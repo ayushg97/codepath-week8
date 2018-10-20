@@ -23,7 +23,9 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
+
+![](https://github.com/ayushg97/codepath-week8/blob/master/usernameenumeration.gif)
 
 Vulnerability #2: __________________
 
