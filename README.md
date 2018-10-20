@@ -61,8 +61,11 @@ You can access a salesperson by their id parameter in the url. The two people, L
 
 ![](https://github.com/ayushg97/codepath-week8/blob/master/idor.gif)
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
+The csrf token that is used to validate user permissions before updating the database is not actually used. You can change it to be anything you want and the data will still be updated as evidenced in the gif.
+
+![](https://github.com/ayushg97/codepath-week8/blob/master/csrf.gif)
 
 ## Notes
 
